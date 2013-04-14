@@ -1,4 +1,4 @@
-package sample.echo.api;
+package sample.message.util;
 
 import javax.ejb.Stateless;
 

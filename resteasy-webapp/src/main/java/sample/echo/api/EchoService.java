@@ -1,5 +1,7 @@
 package sample.echo.api;
 
+import sample.message.util.MessageFormat;
+
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -9,7 +11,8 @@ import javax.ws.rs.core.Response;
 @Path("/message")
 public class EchoService {
 
-    @Inject MessageFormat messageFormat;
+    @Inject
+    MessageFormat messageFormat;
 
 	@GET
 	@Path("/{param}")
