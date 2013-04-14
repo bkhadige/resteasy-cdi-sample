@@ -19,6 +19,7 @@
     <modules>
         <module>resteasy-webapp</module>
         <module>resteasy-app-util</module>
+	<module>resteasy-app</module>
     </modules>
 
     <build>
